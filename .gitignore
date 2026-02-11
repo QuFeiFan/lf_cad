@@ -11,3 +11,6 @@ env/
 
 # Build/output artifacts
 output/
+
+# Slicer project files
+*.3mf

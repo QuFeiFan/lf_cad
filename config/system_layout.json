@@ -7,7 +7,7 @@
     "front_z_mm": -800.0
   },
   "lens_plate": {
-    "size_mm": [381.888, 214.812, 3.0],
+    "size_mm": [404.0, 217.0, 3.0],
     "xy_center_mm": [0.0, 0.0],
     "front_z_mm": -730.0
   },
@@ -36,7 +36,7 @@
     "enabled": true,
     "trim_holders_by_plate_back_plane": true,
     "plate": {
-      "size_mm": [381.888, 214.812, 3.0],
+      "size_mm": [404.0, 217.0, 3.0],
       "xy_center_mm": [0.0, 0.0],
       "front_z_mm": -730.0
     },
@@ -56,6 +56,10 @@
     "output": {
       "directory": "output",
       "basename": "holder_array_combo"
+    },
+    "print_split": {
+      "max_part_dim_mm": 245.0,
+      "avoid_clearance_mm": 2.0
     }
   }
 }
