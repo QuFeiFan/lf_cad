@@ -1,0 +1,13 @@
+.DS_Store
+
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build/output artifacts
+output/

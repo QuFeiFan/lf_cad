@@ -1,0 +1,61 @@
+{
+  "units": "mm",
+  "screen": {
+    "size_mm": [381.888, 214.812, 12.4],
+    "pixel_resolution": [3840, 2160],
+    "xy_center_mm": [0.0, 0.0],
+    "front_z_mm": -800.0
+  },
+  "lens_plate": {
+    "size_mm": [381.888, 214.812, 3.0],
+    "xy_center_mm": [0.0, 0.0],
+    "front_z_mm": -730.0
+  },
+  "diffuser": {
+    "size_mm": [381.888, 214.812, 2.0],
+    "center_mm": [0.0, 0.0, 0.0]
+  },
+  "lens_holder": {
+    "enabled": true,
+    "step_path": "assets/step/lens_holder.step",
+    "normalize_import_center": true,
+    "target_center_mm": [0.0, 0.0, -731.5]
+  },
+  "sub_image_layout": {
+    "sub_image_size_mm": [50.0, 50.0],
+    "x_interval_mm": 2.0,
+    "y_interval_mm": 3.0,
+    "nominal_channel_count": 26,
+    "emboss_height_mm": 5.0
+  },
+  "convergence_control": {
+    "vertical_convergence_x_axis_line_z_mm": 0.0,
+    "horizontal_convergence_y_axis_line_z_mm": 300.0
+  },
+  "holder_array_combo": {
+    "enabled": true,
+    "trim_holders_by_plate_back_plane": true,
+    "plate": {
+      "size_mm": [381.888, 214.812, 3.0],
+      "xy_center_mm": [0.0, 0.0],
+      "front_z_mm": -730.0
+    },
+    "cutter": {
+      "mode": "max_radius",
+      "radius_offset_mm": 0.0,
+      "length_margin_mm": 20.0
+    },
+    "visualization": {
+      "show_convergence_axes": true,
+      "show_sub_to_lens_lines": true,
+      "axis_radius_mm": 1.2,
+      "line_radius_mm": 0.6,
+      "axis_length_mm": 500.0,
+      "sub_to_lens_lines_end_z_mm": 500.0
+    },
+    "output": {
+      "directory": "output",
+      "basename": "holder_array_combo"
+    }
+  }
+}
