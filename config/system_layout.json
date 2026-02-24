@@ -7,9 +7,14 @@
     "front_z_mm": -800.0
   },
   "lens_plate": {
-    "size_mm": [404.0, 217.0, 3.0],
+    "size_mm": [404.0, 237.0, 3.0],
     "xy_center_mm": [0.0, 0.0],
     "front_z_mm": -730.0
+  },
+  "plate_size_notes": {
+    "legacy_plate_404x217_mm": [404.0, 217.0, 3.0],
+    "full_plate_404x237_mm": [404.0, 237.0, 3.0],
+    "description_zh": "404x237 是与外壳匹配的完整版尺寸，不需要额外补条；404x217 是已打印的历史过渡版本，如需达到 237 高度，需要在上下各补 10mm 长条。"
   },
   "diffuser": {
     "size_mm": [381.888, 214.812, 2.0],
@@ -36,7 +41,7 @@
     "enabled": true,
     "trim_holders_by_plate_back_plane": true,
     "plate": {
-      "size_mm": [404.0, 217.0, 3.0],
+      "size_mm": [404.0, 237.0, 3.0],
       "xy_center_mm": [0.0, 0.0],
       "front_z_mm": -730.0
     },
